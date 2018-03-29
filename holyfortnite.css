@@ -1,3 +1,19 @@
 body {
 	font-family: moderne-sans;
 }
+
+element.style {
+    width: 100px;
+}
+
+.rarity-background_epic {
+    border-style: solid;
+    border-image-source: linear-gradient(25deg,#8037d7 15%,#df2cef);
+    border-image-slice: 20;
+    background-image: radial-gradient(#d27bf4 0%,#7907a5 100%);
+}
+
+.rarity-background_small {
+    border-width: 2px;
+    padding: 2px;
+}
