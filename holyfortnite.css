@@ -6,6 +6,27 @@ element.style {
     width: 100px;
 }
 
+.rarity-background_common {
+    border-style: solid;
+    border-image-source: linear-gradient(25deg,#7e848a 15%,#cfcfcf);
+    border-image-slice: 20;
+    background-image: radial-gradient(#d0d0d0 0%,#6d7071 100%);
+}	
+
+.rarity-background_uncommon {
+    border-style: solid;
+    border-image-source: linear-gradient(25deg,#008a09 15%,#9eef00);
+    border-image-slice: 20;
+    background-image: radial-gradient(#5bad03 0%,#01700a 100%);
+}
+
+.rarity-background_rare {
+    border-style: solid;
+    border-image-source: linear-gradient(25deg,#0063c5 15%,#00efec);
+    border-image-slice: 20;
+    background-image: radial-gradient(#3dc7ff 0%,#0059a1 100%);
+}
+
 .rarity-background_epic {
     border-style: solid;
     border-image-source: linear-gradient(25deg,#8037d7 15%,#df2cef);
@@ -13,7 +34,20 @@ element.style {
     background-image: radial-gradient(#d27bf4 0%,#7907a5 100%);
 }
 
+.rarity-background_legendary {
+    border-style: solid;
+    border-image-source: linear-gradient(25deg,#df7241 15%,#f6c87c);
+    border-image-slice: 20;
+    background-image: radial-gradient(#fb9625 0%,#875134 100%);
+}
+
 .rarity-background_small {
     border-width: 2px;
     padding: 2px;
+}
+
+th { width: 66px; 
+	max-width: 66px; 
+
+
 }
