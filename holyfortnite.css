@@ -1,5 +1,9 @@
 body {
 	font-family: moderne-sans;
+	background-image: url("Fortnite_BR.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 element.style {
