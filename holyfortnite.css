@@ -1,20 +1,58 @@
 body {
 	font-family: moderne-sans;
 	color: white;
-	background-image: url("https://www.imore.com/sites/imore.com/files/styles/xlarge_wm_brw/public/field/image/2018/03/fortnite-windowscentral-screen.jpg?itok=ItVKiZoP");
+	background-image: linear-gradient(rgba(0,0,0,.74), rgba(36,70,105,.74)), url("https://www.imore.com/sites/imore.com/files/styles/xlarge_wm_brw/public/field/image/2018/03/fortnite-windowscentral-screen.jpg?itok=ItVKiZoP");
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
 }
 
-.layer {
-    background-color: rgba(252, 65, 65, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+ th,td {
+		font-family: 'Helvetica Neue', sans-serif;
+        margin: 0;
+        text-align: center;
+        border-collapse: collapse;
+        outline: 0.5px solid black;
+    }
+	
+	
+    td{
+		font-family: 'Helvetica Neue', sans-serif;
+        padding: 1px 1px;
+    }
+
+	th{
+		font-family: 'Helvetica Neue', sans-serif;
+        background: #c5fadc;
+        color: black;
+        padding: 12px 18px;
+    }
+
+    td:hover{
+        cursor: pointer;
+        background: #c5fadc;
+        color: black;
+		outline: 0.5px black;
+    }
+	
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 12px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
+
+a:hover, a:active {
+    background-color: #ebfdf3;
+	color: black;
+}
+
+.logo { 
+ background: #c5fadc;
+ padding: 14px 14px;
+	}
 
 element.style {
     width: 100px;
