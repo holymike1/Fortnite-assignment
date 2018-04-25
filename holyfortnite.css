@@ -1,5 +1,5 @@
 body {
-	font-family: moderne-sans;
+	font-family: 'Helvetica Neue', sans-serif;
 	color: white;
 	background-image: linear-gradient(rgba(0,0,0,.74), rgba(36,70,105,.74)), url("https://www.imore.com/sites/imore.com/files/styles/xlarge_wm_brw/public/field/image/2018/03/fortnite-windowscentral-screen.jpg?itok=ItVKiZoP");
     background-repeat: no-repeat;
@@ -50,6 +50,10 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #ebfdf3;
 	color: black;
+}
+
+h2{
+    text-decoration: underline;
 }
 
 element.style {
