@@ -102,6 +102,42 @@ element.style {
 
 th { width: 66px; 
 	max-width: 66px; 
+}
 
+/* Style the button that is used to open and close the collapsible content */
+.collapse {
+  background-color: #c5fadc;
+  color: #white;
+  cursor: pointer;
+  padding: 18px;
+  width: 15%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
 
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapse:hover {
+  background-color: #ebfdf3;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.patches {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapse:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
