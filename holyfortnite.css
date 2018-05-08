@@ -104,40 +104,42 @@ th { width: 66px;
 	max-width: 66px; 
 }
 
-/* Style the button that is used to open and close the collapsible content */
-.collapse {
-  background-color: #c5fadc;
-  color: #white;
-  cursor: pointer;
-  padding: 18px;
-  width: 15%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+.dropbtn {
+    background-color: #c5fadc;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapse:hover {
-  background-color: #ebfdf3;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-.patches {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.collapse:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+.dropdown-content a:hover {background-color: #ebfdf3}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ebfdf3;
 }
